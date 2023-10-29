@@ -1,2 +1,2 @@
-let nombreUsuario = prompt('Ingrese su nombre');
-document.write('<p>Bienvenido ' + nombreUsuario + '!</p>');
+let nombreUsuario = prompt("Ingrese su nombre");
+document.write("<p>Bienvenido " + nombreUsuario + "!</p>");
