@@ -1,17 +1,10 @@
-// Pedir al usuario que ingrese tres números
-let numero1 = parseFloat(prompt("Introduce el primer número: "));
-let numero2 = parseFloat(prompt("Introduce el segundo número: "));
-let numero3 = parseFloat(prompt("Introduce el tercer número: "));
+let numero1 = parseFloat(prompt("Introduce un número: "));
+let numero2 = parseFloat(prompt("Introduce un número: "));
+let numero3 = parseFloat(prompt("Introduce un número: "));
 
-let mayor;
-
-
-if (numero1 > numero2 && numero1 > numero3) {
-    mayor = numero1;
+if (numero1 > numero2 && numero1 > nu) {
+  document.write("El número, " + numero1 + ", es el mayor.");
 } else if (numero2 > numero1 && numero2 > numero3) {
-    mayor = numero2;
-} else {
-    mayor = numero3;
-}
-
-document.write("El número mayor es: " + mayor);
+  document.write("El número, " + numero2 + ", es el mayor.");
+} else if (numero3 > numero1 && numero3 > numero2)
+  document.write("El número, " + numero3 + ", es el mayor.");
