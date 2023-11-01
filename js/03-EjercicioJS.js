@@ -1,0 +1,1 @@
+document.write('<p>8</p>')
